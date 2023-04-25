@@ -1,0 +1,24 @@
+default:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
+insert:[10 10]
+erase:[1 0]
+erase_exponent:0
+find:[10 10] [10 0] [1 1] [1 0]
+find_exponent:10 0
+output:
+positive:
+negative:
+evaluate:0 1 2 3 4 5 6 7 8 9 10
+compare_less:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
+compare_greater:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
+compare_less_equal:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
+compare_greater_equal:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
+compare_equal:[-10x^10-9x^9-8x^8-7x^7-6x^6-5x^5-4x^4-3x^3-2x^2-1x^1]
+compare_not_equal:[-10x^10-9x^9-8x^8-7x^7-6x^6-5x^5-4x^4-3x^3-2x^2-1x^1]
+addition:[1024x^1024+64x^0]
+subtraction:[1x^1+1x^0]
+multiplication:[-1x^2+1x^0]
+multiplication_constant:1 2 3 4 5 6 7 8 9 10
+division:[1x^1+1x^0]
+division_constant:1 2 3
+modulus:[-1x^2-1x^0]
+modulus_constant:1 2 3
