@@ -1,5 +1,7 @@
 addition:[polynomial] [polynomial] [polynomial]... - Adds the polynomial(s) to the default starting polynomial for chaining operations
 
+assign:[polynomial] - Assigns the default starting polynomial a value for chaining operations (program default starting polynomial is zero polynomial)
+
 compare_equal:[polynomial] [polynomial] [polynomial]... - Compares the default starting polynomial with the polynomial(s) for equal-to for query operations
 
 compare_less:[polynomial] [polynomial] [polynomial]... - Compares the default starting polynomial with the polynomial(s) for less-than for query operations
@@ -11,8 +13,6 @@ compare_greater:[polynomial] [polynomial] [polynomial]... - Compares the default
 compare_greater_equal:[polynomial] [polynomial] [polynomial]... - Compares the default starting polynomial with the polynomial(s) for greater-than-equal-to for query operations
 
 compare_not_equal:[polynomial] [polynomial] [polynomial]... - Compares the default starting polynomial with the polynomial(s) for not-equal-to for query operations
-
-default:[polynomial] - Overrides the default starting polynomial value for chaining operations (program default starting polynomial is zero polynomial)
 
 division:[polynomial] [polynomial] [polynomial]... - Divides the default starting polynomial by the polynomial(s) for chaining operations
 
@@ -43,5 +43,7 @@ negative: - Assigns the default starting polynomial its negative representation,
 output: - Outputs the default starting polynomial to stdout for query operations
 
 positive: - Assigns the default starting polynomial its positive representation, that is all terms multiplied by 1, for chaining operations
+
+power:<exponent> <exponent> <exponent>... - Raises the default starting polynomial to the exponent(s) for chaining operations
 
 subtraction:[polynomial] [polynomial] [polynomial]... - Subtracts the polynomial(s) from the default starting polynomial for chaining operations

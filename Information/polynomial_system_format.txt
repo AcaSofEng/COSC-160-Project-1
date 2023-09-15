@@ -4,4 +4,4 @@ usage: decimal_polynomial_system <polyt file path>
 integer_polynomial_system - Binary that performs chained operations on polynomials with integer coefficients
 usage: integer_polynomial_system <polyt file path>
 
-<polyt file path> - A file that contains appropriate operations, where each operation is on one line, to pass to the decimal_polynomial_system/integer_polynomial_system to process
+<polyt file path> - A file that contains the appropriate operations, where each operation is on one line, to pass to the decimal_polynomial_system/integer_polynomial_system to process
