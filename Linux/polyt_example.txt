@@ -8,6 +8,7 @@ output:
 positive:
 negative:
 evaluate:0 1 2 3 4 5 6 7 8 9 10
+power:1 2 3 4 5
 compare_less:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
 compare_greater:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
 compare_less_equal:[9x^9+8x^8+7x^7+6x^6+5x^5+4x^4+3x^3+2x^2+1x^1]
